@@ -9,33 +9,50 @@
     <script src="main.js"></script>
 </head>
 <header>
-    <nav>
-        <ul>
-            <li>About</li>
-            <li>Store</li>
-            <li>Gmail</li>
-            <li>Images</li>
-        </ul>
+    <nav id="top-nav">
+        <div class="align-left">
+            <ul>
+                <li>About</li>
+                <li>Store</li>
+            </ul>
+        </div>
+        <div class="align-right">
+            <ul>
+                <li>Gmail</li>
+                <li>Images</li>
+            </ul>
+        </div>
     </nav>
 </header>
 <body>
-      <img alt='google logo' id='logo' src='images/google2.0.0.jpg'>
- <form>
+    <div id="logo-container">
+        <img alt='google logo' id='logo' src='images/googlelogo_color_272x92dp.png'>
+    </div>
+ <form>   
     <input id="search" type="text">
-    <input type="button" value="Google Search">
-    <input type="button" value="I'm Feeling Lucky">
+    <br>
+    <div id="buttons">
+        <input type="button" class="align-left" value="Google Search">
+        <input type="button" class="align-right" value="I'm Feeling Lucky">
+    </div>
  </form>
 
 </body>
 <footer>
-    <nav>
-        <ul>
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
-        </ul>
+    <nav id="bottom-nav">
+        <div class="align-left">
+            <ul>
+                <li>Advertising</li>
+                <li>Business</li>
+            </ul>
+        </div>
+        <div class="align-right">  
+            <ul>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </div>
     </nav>
 </footer>
 </html>
